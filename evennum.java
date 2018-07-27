@@ -18,7 +18,7 @@ class Ideone
 		{
 			if(i%2==0)
 			{
-				System.out.println(i +"\t");
+				System.out.println(i + " ");
 			}
 		}
 		
