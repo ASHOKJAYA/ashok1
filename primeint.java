@@ -1,3 +1,4 @@
+
 /* package whatever; // don't place package name! */
 
 import java.util.*;
@@ -9,31 +10,29 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		// your code goes here
-		int i;
-		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
-		int m=sc.nextInt();
-		        while (n < m) {
-            if(checkPrimeNumber(n))
-                System.out.print(n + " ");
-
-            ++n;
-        }
-    }
-
-    public static boolean checkPrimeNumber(int num) {
-        boolean flag = true;
-
-        for(int i = 2; i <= num/2; ++i) {
-
-            if(num % i == 0) {
-                flag = false;
-                break;
-            }
-        }
-
-        return flag;
+	int s1, s2, s3, flag = 0, i, j;
+         Scanner s = new Scanner(System.in);
+         s1 = s.nextInt();
+         s2 = s.nextInt();
+         for(i = s1; i <= s2; i++)
+         {
+             for( j = 2; j < i; j++)
+             {
+                 if(i % j == 0)
+                 {
+                     flag = 0;
+                     break;
+                 }
+                 else
+                 {
+                     flag = 1;
+                 }
+             }
+             if(flag == 1)
+             {
+                 System.out.println(i + " ");
+             }
+         }
 
 }
 }
