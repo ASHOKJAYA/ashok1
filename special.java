@@ -30,6 +30,6 @@ class Ideone
 			}
 		}
 		
-		System.out.println() other);
+		System.out.println(other);
 			}	
 	}
