@@ -17,7 +17,7 @@ class Ideone
 		int temp=x;
 		x=y;
 		y=temp;
-		System.out.println(x);
-		System.out.println(y);
+		System.out.print(x+" ");
+		System.out.print(y);
 	}
 }
