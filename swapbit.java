@@ -18,7 +18,7 @@ class Ideone
 		b = a ^ b; 
 		a = a ^ b; 
 
-		System.out.println(a);
+		System.out.println(a+" ");
 		System.out.println(b);
 	}
 }
