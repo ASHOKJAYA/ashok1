@@ -25,6 +25,6 @@ class Ideone
 		 if(numeric)
 			 System.out.println("Yes");
 		else
-            		System.out.println("No");
+            		System.out.println("no");
 	}
 }
