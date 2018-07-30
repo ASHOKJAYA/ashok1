@@ -27,7 +27,7 @@ class Ideone
         if (!flag)
             System.out.println( "yes");
         else
-            System.out.println( " no");
+            System.out.println( "no");
 
 		
 	}
