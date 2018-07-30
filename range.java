@@ -12,16 +12,15 @@ class Ideone
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
-		for(int i=1;i<=10;i++)
-		{
-			if(n==i)
+		
+	
+			if(n>=1 && n<=10)
 			{
 				System.out.print("yes");
-				break;
+				
 			}else
 				System.out.print("no");
-				break;
-		}
+				
 		
 		
 
