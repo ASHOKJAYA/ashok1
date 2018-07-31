@@ -17,9 +17,9 @@ String numRegex   = ".*[0-9].*";
 String alphaRegex = ".*[a-z].*";
 
 if (s.matches(numRegex) && s.matches(alphaRegex)) {
-    System.out.println("yes");
+    System.out.println("Yes");
 }else{
-	System.out.print("no");
+	System.out.print("No");
 }
 
 	}
