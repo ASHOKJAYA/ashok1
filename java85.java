@@ -11,11 +11,10 @@ class Ideone
 	{
 		// your code goes here
 		Scanner scan    =   new Scanner(System.in);
-		  scan.nextLine();
+			  String  myString    =   scan.nextLine();
 
 		  for(int i=0 ; i<1 ; i++)
 		  {
-			  String  myString    =   scan.nextLine();
 
 			    int evn =   0,
 			   odd =   0,
