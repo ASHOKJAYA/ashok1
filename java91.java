@@ -17,9 +17,8 @@ class Ideone
         b = s.nextInt();
         h = s.nextInt();
         area = 2 * ((l * b) + (b * h) + (h * l));
-        System.out.println(area);
         volume=l * b * h;
-        System.out.println(volume);
+        System.out.println(area+" "+volume);
 
 	}
 }
